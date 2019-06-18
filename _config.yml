@@ -4,16 +4,16 @@
 
 # Site
 title: 钱端逾期
-subtitle:
-description:
-keywords:
+subtitle: 招商银行和钱端APP的惊天阴谋
+description: 发布钱端APP逾期受害者的动态信息
+keywords: 招行, 钱端, 逾期, 理财, 银保监会, 中央巡视组
 author: 赵亚飞
-language:
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://zhqd.zhaoyafei.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

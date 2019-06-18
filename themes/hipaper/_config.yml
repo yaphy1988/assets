@@ -22,11 +22,11 @@ favicon: css/images/favicon.ico
 # Put your avatar.jpg into `hexo-site/themes/hipaper/source/` directory.
 # url is target link (E.g. `url: https://hexo.io/logo.svg` or `url: css/images/mylogo.jpg`)
 avatar: 
-  enable: false
-  width: 124
-  height: 124
+  enable: true
+  width: 290
+  height: 130
   bottom: 10
-  url: https://hexo.io/logo.svg
+  url: https://zhqdf.oss-cn-shenzhen.aliyuncs.com/zhaoyf-logo.png
 
 
 # AboutPage background, support multiple images.
@@ -34,7 +34,7 @@ about_big_image: [css/images/pose01.jpg, https://source.unsplash.com/collection/
 
 
 # Homepage thumbnail
-random_thumb: false
+random_thumb: true
 
 
 # Content
@@ -45,18 +45,18 @@ fancybox: true
 sidebar: right
 widgets:
 - search
-- social
+#- social
 - recent_posts
 - category
 - tag
-- tagcloud
+#- tagcloud
 - archive
 
 # Social Links
 # Key is the name of FontAwsome icon.
 # Value is the target link (E.g. GitHub: https://github.com/iTimeTraveler)
 social:
-  Github: https://github.com/iTimeTraveler
+  Github: https://github.com/yaphy1988
   Weibo: 
   Twitter: 
   Facebook: 
@@ -68,7 +68,7 @@ social:
 search:
     insight: true # you need to install `hexo-generator-json-content` before using Insight Search
     swiftype: # enter swiftype install key here
-    baidu: false # you need to disable other search engines to use Baidu search, options: true, false
+    baidu: true # you need to disable other search engines to use Baidu search, options: true, false
 
 
 # comment ShortName, you can choose only ONE to display.
